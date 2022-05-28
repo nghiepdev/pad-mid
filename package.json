@@ -1,0 +1,29 @@
+{
+  "name": "pad-mid",
+  "version": "0.0.1",
+  "description": "Mid pad a string with specified string. Fastest implementation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "file": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npx jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "pad",
+    "mid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nghiepit/pad-mid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nghiepit/pad-mid/issues"
+  },
+  "homepage": "https://github.com/nghiepit/pad-mid",
+  "author": "Nghiep <me@nghiep.dev>",
+  "license": "MIT"
+}
