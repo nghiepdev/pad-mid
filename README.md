@@ -16,11 +16,13 @@ npm install pad-mid
 ```ts
 import {padMid} from 'pad-mid';
 
-expect(padMid('foobar', 3, '*')).toEqual('f***o***o***b***a***r');
+expect(padMid('foobar')).toEqual('f o o b a r');
 
-expect(padMid('foobar', 3, '**')).toEqual(
-  'f******o******o******b******a******r'
-);
+expect(padMid('foobar', 2)).toEqual('f  o  o  b  a  r');
+
+expect(padMid('foobar', 2, '*')).toEqual('f**o**o**b**a**r');
+
+expect(padMid('foobar', 2, '**')).toEqual('f****o****o****b****a****r');
 
 // prettier-ignore
 expect(padMid(`i

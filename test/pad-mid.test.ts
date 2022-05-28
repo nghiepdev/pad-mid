@@ -1,18 +1,16 @@
 import {padMid} from '../lib/pad-mid';
 
 test('just works', () => {
-  expect(padMid('foobar')).toEqual('foobar');
-  expect(padMid('foobar', 3)).toEqual('foobar');
+  expect(padMid('foobar')).toEqual('f o o b a r');
+  expect(padMid('foobar', 2)).toEqual('f  o  o  b  a  r');
 });
 
 test('just works', () => {
-  expect(padMid('foobar', 3, '*')).toEqual('f***o***o***b***a***r');
+  expect(padMid('foobar', 2, '*')).toEqual('f**o**o**b**a**r');
 });
 
 test('just works', () => {
-  expect(padMid('foobar', 3, '**')).toEqual(
-    'f******o******o******b******a******r'
-  );
+  expect(padMid('foobar', 2, '**')).toEqual('f****o****o****b****a****r');
 });
 
 // prettier-ignore
