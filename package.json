@@ -12,6 +12,16 @@
     "test": "npx jest",
     "prepublishOnly": "npm run build"
   },
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "ts-jest": "^28.0.3",
+    "typescript": "^4.7.2"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "resetMocks": true
+  },
   "keywords": [
     "pad",
     "mid"
