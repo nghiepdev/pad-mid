@@ -1,7 +1,7 @@
 {
   "name": "pad-mid",
   "version": "0.0.1",
-  "description": "Mid pad a string with specified string. Fastest implementation.",
+  "description": "Pads each middle character of a string",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "file": [

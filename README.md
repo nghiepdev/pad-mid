@@ -3,12 +3,12 @@
 [![NPM version](https://img.shields.io/npm/v/pad-mid.svg)](https://www.npmjs.com/package/pad-mid)
 [![NPM monthly download](https://img.shields.io/npm/dm/pad-mid.svg)](https://www.npmjs.com/package/pad-mid)
 
-> Mid pad a string with specified string. Fastest implementation.
+> Pads each middle character of a string
 
 ## Installation
 
 ```bash
-yarn add pad-mid
+npm install pad-mid
 ```
 
 ### Example:
