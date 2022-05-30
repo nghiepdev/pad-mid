@@ -1,4 +1,4 @@
-import {padMid} from '../lib/pad-mid';
+const {padMid} = require('./index');
 
 test('just works', () => {
   expect(padMid('foobar')).toEqual('f o o b a r');
