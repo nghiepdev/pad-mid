@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
     "strict": true,
-    "target": "es5",
-    "module": "commonjs",
-    "lib": ["es2015"],
+    "target": "ES5",
+    "module": "ESNext",
+    "lib": ["ES2015"],
+    "outDir": "dist",
+    "moduleResolution": "node",
     "declaration": true
   },
-  "exclude": ["dist"]
+  "include": ["index.ts"]
 }

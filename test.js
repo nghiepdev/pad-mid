@@ -1,4 +1,4 @@
-const {padMid} = require('./index');
+const {padMid} = require('./dist');
 
 test('just works', () => {
   expect(padMid('foobar')).toEqual('f o o b a r');
