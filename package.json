@@ -1,6 +1,6 @@
 {
   "name": "pad-mid",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Pads each middle character of a string",
   "type": "module",
   "source": "./index.ts",
